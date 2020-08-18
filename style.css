@@ -1,5 +1,6 @@
 *
 {
+    
     margin: 0;
     padding: 0;
 }
@@ -12,24 +13,59 @@
     background-image: url(photos/header.jpg);
 }
 
-.main-nav
-{
-    
+
+
+
+.main-nav {
+
     float: right;
     list-style: none;
-    margin-top: 70px;
+    margin-top: 60px;
+    margin-right: 50px;
 }
 
-
-.main-nav li
-{
+.main-nav li{
     display: inline-block;
 }
 
-.main-nav li a
-{
+.main-nav li a{
     color: white;
     text-decoration: none;
-    padding: 5px 155px;
+    padding: 25px ;
     font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border: 1px solid white;
 }
+.main-nav li.active a{
+    background-color: white;
+    color:black;
+
+
+}
+.main-nav li a:hover{
+     background-color: white;
+     color: black;
+}
+
+
+.center{
+    padding: 60px;
+}
+
+.person{
+    float: left;
+    width: 50%;
+     padding: 15px;
+}
+
+
+
+
+.footer{
+    
+   
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+
