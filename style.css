@@ -1,121 +1,101 @@
-*
-{
-    
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
-
-
 
 .header {
-  
-    height: 20em;
-    background-size: cover;
-    background-position: center;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.315),rgba(0, 0, 0, 0.329)), url(photos/header.jpg);
-    
+  height: 20em;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.329)),
+    url(photos/header.jpg);
 }
-
-
-
 
 .main-nav {
-
-    float: right;
-    list-style: none;
-    margin-top: 9em ;
-    margin-right: 5em;
+  float: right;
+  list-style: none;
+  margin-top: 9em;
+  margin-right: 5em;
 }
 
-.main-nav li{
-    display: inline-block;
+.main-nav li {
+  display: inline-block;
 }
 
-.main-nav li a{
-    color: white;
-    text-decoration: none;
-    margin: 20px;
-    padding: 6em ;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    border: 1px solid white;
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  padding: 6em;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  border: 1px solid white;
 }
 /*.main-nav li.active a{
-    background-color: white;
+    background-color: white;  
     color:black;
 }
 
+co sie dzieje kiedy przycisk jest aktywny - jeszcze nie zaimplementowano
+
 */
 
-.main-nav li a:hover{
-     background-color: white;
-     color: black;
+.main-nav li a:hover {
+  background-color: white;
+  color: black;
 }
 
-
-.skilss{
-    padding: 60px;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
+.skilss {
+  padding: 60px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
-.center{
-    padding: 60px;
-   
-    background-image:linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.699)), url(photos/buisnes.jpg);
-    background-size: cover;
-    background-position: center;
+.center {
+  padding: 60px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)),
+    url(photos/buisnes.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-
-
-.person{
-   
-  
-    
-    float: left;
-    width: 50%;
-    font-size: 30px;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    color:white;
+.person {
+  float: left;
+  width: 50%;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: white;
 }
 
-.person h2{
-    margin-top: 20px;
+.person h2 {
+  margin-top: 20px;
 }
 
-.person img{
-padding: 15px;
-float: left;
-width: 10em;
-height: 11em;
- 
+.person img {
+  padding: 15px;
+  float: left;
+  width: 10em;
+  height: 11em;
 }
 
 .center:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.repos{
-    padding: 60px;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
+.repos {
+  padding: 60px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
-.footer{
-    
-   
-    text-align: left;
-    background-color: rgb(41, 41, 41);
-    color: rgb(126, 126, 126);
-    padding: 10px;
-    font-family: "Roboto", sans-serif;
-    
+.footer {
+  text-align: left;
+  background-color: rgb(41, 41, 41);
+  color: rgb(126, 126, 126);
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
 }
-
-
-
