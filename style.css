@@ -11,6 +11,11 @@
     url(photos/header.jpg);
 }
 
+.header img{
+height: 7em;
+padding: 40px;
+}
+
 .main-nav {
   float: right;
   list-style: none;
@@ -26,7 +31,7 @@
   color: white;
   text-decoration: none;
   margin: 20px;
-  padding: 6em;
+  padding: 2em;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   border: 1px solid white;
