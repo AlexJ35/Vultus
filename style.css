@@ -1,0 +1,35 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+  
+    height: 10em;
+    background-size: cover;
+    background-position: center;
+    background-image: url(photos/header.jpg);
+}
+
+.main-nav
+{
+    
+    float: right;
+    list-style: none;
+    margin-top: 70px;
+}
+
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 155px;
+    font-family: "Roboto", sans-serif;
+}
