@@ -4,6 +4,9 @@
 }
 
 
+
+/* coco jambo  */
+
 .header {
   height: 20em;
   background-size: cover;
@@ -58,7 +61,7 @@ co sie dzieje kiedy przycisk jest aktywny - jeszcze nie zaimplementowano
 
 .skilss h1 
 {
-  color: rgb(0, 0, 0);
+  color:red;
 }
 
 .span
