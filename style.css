@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+
 .header {
   height: 20em;
   background-size: cover;
@@ -12,7 +13,7 @@
 }
 
 .header img{
-height: 7em;
+height: 5em;
 padding: 40px;
 }
 
@@ -28,13 +29,13 @@ padding: 40px;
 }
 
 .main-nav li a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   margin: 20px;
-  padding: 2em;
+  padding: 1em;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  border: 1px solid white;
+  border: 1px solid rgb(255, 255, 255);
 }
 /*.main-nav li.active a{
     background-color: white;  
@@ -44,7 +45,6 @@ padding: 40px;
 co sie dzieje kiedy przycisk jest aktywny - jeszcze nie zaimplementowano
 
 */
-
 .main-nav li a:hover {
   background-color: white;
   color: black;
@@ -54,6 +54,16 @@ co sie dzieje kiedy przycisk jest aktywny - jeszcze nie zaimplementowano
   padding: 60px;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+}
+
+.skilss h1 
+{
+  color: rgb(0, 0, 0);
+}
+
+.span
+{ 
+  color: red;
 }
 
 .center {
