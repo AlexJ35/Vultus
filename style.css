@@ -68,7 +68,7 @@ co sie dzieje kiedy przycisk jest aktywny - jeszcze nie zaimplementowano
 .person {
   float: left;
   width: 50%;
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   color: white;
